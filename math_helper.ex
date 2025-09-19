@@ -1,4 +1,4 @@
-defmodule Math_Helper do
+defmodule MathHelper do
     def division do
         fn
         (_dividend, 0) -> :infinity
@@ -20,7 +20,7 @@ defmodule Math_Helper do
 
     def subtraction do
         fn
-        (num1,num2) -> num1 + num2
+        (num1,num2) -> num1 - num2
         end
     end
 end
